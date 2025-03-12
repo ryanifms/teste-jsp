@@ -1,5 +1,5 @@
 # Usa a imagem oficial do Maven para construir o projeto
-FROM maven:3.8.7-openjdk-17 AS build
+FROM maven:3.9.5-eclipse-temurin-17 AS build
 WORKDIR /app
 
 # Copia o código para dentro do container
